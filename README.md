@@ -39,7 +39,8 @@ Structure members are accessed using dot (.) operator.
 struct Point {
 	int x, y;
 };
-
+</code>
+<code>
 int main()
 {
 	struct Point p1 = { 0, 1 };
@@ -61,7 +62,8 @@ Like primitive types, we can have a pointer to a structure. If we have a pointer
 struct Point {
 	int x, y;
 };
-
+</code>
+<code>
 int main()
 {
 	struct Point p1 = { 1, 2 };
@@ -74,5 +76,4 @@ int main()
 	return 0;
 }
 </code>
-<hr>
 
